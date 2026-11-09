@@ -1,0 +1,16 @@
+{
+  "api_key": "YOUR_OPENAI_OR_GROQ_API_KEY",
+  "base_url": "https://api.groq.com/openai/v1",
+  "model": "whisper-large-v3-turbo",
+  "proxy": "",
+  "bcut_proxies": [
+    "http://127.0.0.1:7890",
+    "socks5://127.0.0.1:1080"
+  ],
+  "prompt": "",
+  "temperature": 0.0,
+  "threads": 3,
+  "whisper_proxies": [
+    "socks5://127.0.0.1:1080"
+  ]
+}

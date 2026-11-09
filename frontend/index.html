@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>音流（VoiceFlow Studio）—— 多引擎并发 AI 语音识别与智能字幕工作台</title>
+    <script>
+      // 彻底禁止浏览器在拖拽文件时的默认行为（禁止自动导航播放媒体文件）
+      window.addEventListener('dragover', function(e) { e.preventDefault(); }, false);
+      window.addEventListener('drop', function(e) { e.preventDefault(); }, false);
+      document.addEventListener('dragover', function(e) { e.preventDefault(); }, false);
+      document.addEventListener('drop', function(e) { e.preventDefault(); }, false);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

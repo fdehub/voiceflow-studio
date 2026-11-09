@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Executables & Large Binaries
+ffmpeg.exe
+*.exe
+*.int
+runtime/
+bin/
+
+# Sensitive Configuration & Credentials (Use *.example files instead)
+whisper_config.json
+bcut_proxies.txt
+workspace_state.json
+asr_cache.json
+.env
+.env.*
+*.pem
+*.key
+
+# Node & Frontend dependencies & builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Scratch & Dev Workspace
+scratch/
+.system_generated/
+*.tmp
+temp/
+tmp/
+uploads/*
+!uploads/.gitkeep
+result.txt
+test*.mp3
+test*.wav
+test*.m4a
+
+# Logs & Databases
+*.log
+*.sqlite
+*.sqlite3
+
+# IDE & OS Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db

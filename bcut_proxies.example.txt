@@ -1,0 +1,5 @@
+# 代理池配置示例（每行一个代理）：
+# 支持 http://、https:// 与 socks5:// 协议
+# 格式：protocol://[username:password@]ip:port[#备注标签]
+socks5://127.0.0.1:1080#本地Socks5代理
+http://127.0.0.1:7890#本地HTTP代理
